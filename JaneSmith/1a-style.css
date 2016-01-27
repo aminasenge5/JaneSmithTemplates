@@ -4,7 +4,7 @@
 
 	padding-top: 110px;
 	padding-left:10px;
-	font-family: Helvetica, sans-serif;
+	font-family: 'Kalimati', sans-serif;
 	margin: 0px;
 	border-left: 1px solid black;
 	height: 100%;
@@ -12,12 +12,22 @@
 	/*There is a large margin on the left to add users Intials and contact info*/
 }
 
+
+.p-body + ul.body {
+    
+}
+
+/*p, ul {
+    padding: 0;
+    margin: 0;
+}*/
+
+
 .ul-body {
 
 	font-size: 20px;
 	font-weight: bold;
 	padding-left: 0px;
-	padding-bottom: 0px;
 	/*This will align the <ul> text with the <p> text*/
 
 }
@@ -25,6 +35,8 @@
 .ul-verse {
 
 	padding-left: 0px;
+	padding: 0;
+	margin: 0;
 }
 
 .p-body {
@@ -32,6 +44,14 @@
 	padding-top: 0px;
 	padding-bottom: 0px;
 
+}
+
+.p-ref1 {
+	float: left;
+}
+
+.p-ref2{
+	float: right;
 }
 
 footer {
